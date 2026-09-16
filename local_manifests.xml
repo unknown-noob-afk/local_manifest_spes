@@ -3,31 +3,28 @@
     <remote name="rem"
             fetch="https://github.com" />
 
-    <remote name="gl"
-            fetch="https://gitlab.com" />
-
     <!-- Spes Repos -->
     <project path="device/xiaomi/spes"
-             name="xiaomi-spes-devs/android_device_xiaomi_spes"
+             name="unknown-noob-afk/android_device_xiaomi_spes"
              remote="rem"
-             revision="lineage-23.2"
+             revision="sixteen-qpr2"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/spes"
-             name="angxddeep/proprietary_vendor_xiaomi_spes"
-             remote="gl"
-             revision="master"
+             name="unknown-noob-afk/vendor_spes"
+             remote="rem"
+             revision="sixteen-qpr2"
              clone-depth="1" />
 
     <project path="kernel/xiaomi/spes"
-             name="xiaomi-spes-devs/android_kernel_xiaomi_spes"
+             name="unknown-noob-afk/android_kernel_xiaomi_spes"
              remote="rem"
-             revision="lineage-23.2"
+             revision="sixteen-qpr2"
              clone-depth="1" />
 
     <project path="hardware/xiaomi"
-             name="lineageos/android_hardware_xiaomi"
+             name="unknown-noob-afk/android_hardware_xiaomi"
              remote="rem"
-             revision="23.2"
+             revision="lineage-23.2"
              clone-depth="1" />
 </manifest>
